@@ -2,7 +2,7 @@ import { FiSearch } from 'react-icons/fi';
 
 import style from './Form.module.css';
 
-export const Form = () => {
+const Form = () => {
   return (
     <form className={style.form}>
       <button className={style.button} type="submit">
@@ -19,3 +19,5 @@ export const Form = () => {
     </form>
   );
 };
+
+export default Form;

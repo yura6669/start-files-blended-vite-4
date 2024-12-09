@@ -1,7 +1,7 @@
-import { Container } from 'components';
+import Container from '../Container/Container';
 import styles from './Header.module.css';
 
-export const Header = () => {
+const Header = () => {
   return (
     <header className={styles.header}>
       <Container>
@@ -12,3 +12,5 @@ export const Header = () => {
     </header>
   );
 };
+
+export default Header;

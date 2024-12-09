@@ -3,7 +3,7 @@ import { MdOutlineCancel } from 'react-icons/md';
 
 import style from './EditForm.module.css';
 
-export const EditForm = () => {
+const EditForm = () => {
   return (
     <form className={style.form}>
       <input
@@ -24,3 +24,4 @@ export const EditForm = () => {
     </form>
   );
 };
+export default EditForm;

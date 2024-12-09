@@ -1,9 +1,11 @@
-import { Text } from 'components';
+import Text from '../Text/Text';
 
-export const TodoList = () => {
+const TodoList = () => {
   return (
     <>
       <Text textAlign="center">We did not find any todo😯</Text>
     </>
   );
 };
+
+export default TodoList;

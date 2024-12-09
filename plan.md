@@ -3,13 +3,6 @@
 Виконайте рефакторинг застосунку **"TODO LIST"** використовуючи бібліотеку\
 управління станом [Redux Toolkit](https://redux-toolkit.js.org/).
 
-В проекті налаштовані Alias imports тому імпорти можна вказувати з папки
-`components`
-
-```jsx
-import { Text } from 'components';
-```
-
 ### Крок 1
 
 Додайте необхідні npm пакети в проект
